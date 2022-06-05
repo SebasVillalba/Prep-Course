@@ -60,16 +60,16 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x===y){console.log ("true");}
-  else {console.log ("false");}
+  if (x===y){console.log (true);}
+  else {console.log (false);}
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1===str2){console.log ("true");}
-  else {console.log ("false");}
+  if (str1===str2){console.log (true);}
+  else {console.log (false);}
 }
 
 
@@ -77,16 +77,16 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num<90) {console.log ("true");}
-  else {console.log ("false");}
+  if (num<90) {console.log (true);}
+  else {console.log (false);}
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num>50){console.log ("true");}
-  else {console.log ("false");}
+  if (num>50){console.log (true);}
+  else {console.log (false);}
 }
 
 function obtenerResto(x, y) {
@@ -100,16 +100,16 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%2===0){console.log ("true");}
-  else {console.log ("false");}
+  if (num%2===0){console.log (true);}
+  else {console.log (false);}
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%2===0){console.log ("false");}
-  else {console.log ("true");}
+  if (num%2===0){console.log (false);}
+  else {console.log (true);}
 }
 
 function elevarAlCuadrado(num) {
@@ -162,7 +162,7 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero>0){console.log ("El numero " + (numero) + " es positivo");}
   else if (numero<0){console.log ("El numero " + (numero) + " es negativo");}
-  else if (numero===0){console.log ("False");}
+  else if (numero===0){console.log (False);}
 }
 
 function agregarSimboloExclamacion(str) {
